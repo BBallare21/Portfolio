@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.body{
+    height: 100vh;
+    background-size: cover;
+    overflow: none;
+}
+
+.sidebar {
+    background: url(../Assets/images/side.jpg) no-repeat;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-size: cover;
+    overflow: none;
+    color: white;
+    opacity: 88%;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    color: rgb(190, 190, 190);
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: .4s;
+    margin-top: 30px;
+}
+
+ul li a:hover {
+    padding-left: 100px;
+    color: rgb(22, 135, 163);
+    transition: .4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.copyright {
+    color: white;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 0;
+    left: 50%;
+    display: flex;
+    color: rgb(190, 190, 190);
+    font-size: 15px;    
+}
+
+section {
+    background: url(../Assets/images/Background3.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.name {
+    transform: translateY(100%);
+    display: inline-block;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.title {
+    font-size: 140px;
+    letter-spacing: 5px;
+    color: rgb(110, 110, 110);
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgb(114, 114, 114);
+}
