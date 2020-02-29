@@ -20,7 +20,7 @@ body, html {
 }
 
 .sidebar {
-    background: url(../Assets/images/side.jpg) no-repeat;
+    background: url(../Assets/images/side1.jpg) no-repeat;
     position: fixed;
     left: 0;
     width: 220px;
@@ -28,7 +28,6 @@ body, html {
     background-size: cover;
     overflow: none;
     color: white;
-    opacity: 88%;
     font-weight: bold;
     font-family: 'Barlow', sans-serif;
 }
