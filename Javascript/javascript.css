@@ -1,2 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+section {
+    background: rgba(136, 136, 136, 0.6);
+    background-position: center;
+    background-size: cover;
+    margin-left: 220px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.examples {
+    padding: 197px;
+}
